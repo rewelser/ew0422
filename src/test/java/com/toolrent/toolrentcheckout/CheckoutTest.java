@@ -146,7 +146,7 @@ class CheckoutTest {
     // (Test 6)
     @Test
     void testRentJackhammerThroughIndependenceDayWeekend2020() {
-        checkout.setTool(this.checkout.getToolByToolCode("JAKD"));
+        checkout.setTool(this.checkout.getToolByToolCode("JAKR"));
         checkout.setRentalDuration(4);
         checkout.setDiscountPercentHundreds(new BigDecimal(50));
         checkout.setCheckoutDate(LocalDate.parse("07/02/20", dateTimeFormatter));
