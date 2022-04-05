@@ -1,0 +1,5 @@
+ToolCode, Brand, ToolType, DailyCharge, WeekdayCharge, WeekendCharge, HolidayCharge
+CHNS, Stihl, Chainsaw, 1.49, true, false, true
+LADW, Werner, Ladder, 1.99, true, true, false
+JAKD, DeWalt, Jackhammer, 2.99, true, false, false
+JAKR, Rigid, Jackhammer, 2.99, true, false, false
